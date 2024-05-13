@@ -1,0 +1,18 @@
+@font-face{
+    font-family: 'Minecrafter.Alt';
+    src: url('./letras/Minecrafter.Alt.ttf');
+}
+
+.main {
+    background-color:  rgb(19, 194, 224);
+    overflow-y: auto;
+}
+
+#titulos{
+    font-size: 500%;
+    color:  #cccbcb ;
+    -webkit-text-stroke: 2.5px rgb(0, 0, 0);
+    font-family: 'Minecrafter.Alt';
+    text-align: center;
+    letter-spacing: 5px
+}

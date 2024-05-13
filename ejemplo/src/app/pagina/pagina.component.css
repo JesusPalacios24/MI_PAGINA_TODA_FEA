@@ -1,0 +1,58 @@
+@font-face{
+    font-family: 'Minecrafter.Alt';
+    src: url('./letras/Minecrafter.Alt.ttf');
+}
+@font-face {
+    font-family: 'The Wild Breath of Zelda';
+    src: url('./letras/The\ Wild\ Breath\ of\ Zelda.otf');
+}
+
+.main {
+    background-color:  rgb(19, 194, 224);
+    overflow-y: auto;
+}
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#titulos{
+    font-size: 500%;
+    color:  #cccbcb ;
+    -webkit-text-stroke: 2.5px rgb(0, 0, 0);
+    font-family: 'Minecrafter.Alt';
+    text-align: center;
+    letter-spacing: 5px
+}
+
+#textos{
+    font-size: 290%;
+    color:   #c4ad80 ;
+    -webkit-text-stroke: 1.7px rgb(0, 0, 0);
+    font-family: 'The Wild Breath of Zelda';
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 10px;
+}
+
+#links{
+    font-size: 250%;
+    color:   #c4ad80 ;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-family: 'The Wild Breath of Zelda';
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 70px;
+}
+
+#boton{
+    padding: 10px 20px; 
+    background-color: #000000; 
+    color: #c4ad80; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-family: 'The Wild Breath of Zelda';
+    font-size: 190%;
+}
+
